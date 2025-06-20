@@ -9,6 +9,6 @@ Uses JavaScript's Intl API to display current time, date, and timezone abbreviat
 ---
 
 # time-app.f5.si 用
+http://time-app.f5.si/ 
 (https://hamuzon.github.io/time-app.f5.si/)
-http://time-app.f5.si/
 でタイムゾーンが見れる用のCode
