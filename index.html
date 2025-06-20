@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>時計</title>
+  <title>時計 / Clock </title>
   <style>
     :root {
       --bg-light: #f4fdf6;
@@ -205,7 +205,7 @@
     document.getElementById('langBtn').addEventListener('click', () => {
       currentLang = currentLang === 'ja' ? 'en' : 'ja';
       document.getElementById('langBtn').textContent = currentLang === 'ja' ? 'English' : '日本語';
-      document.getElementById('main-title').textContent = currentLang === 'ja' ? 'タイム・ゾーン時計' : 'Time Zone Clock';
+      document.getElementById('main-title').textContent = currentLang === 'ja' ? 'タイム・ゾーン時計' : 'Clock';
       document.querySelectorAll('.zone-card').forEach(card => {
         const title = currentLang === 'ja' ? card.dataset.titleJa : card.dataset.titleEn;
         card.querySelector('.zone-name').textContent = title;
